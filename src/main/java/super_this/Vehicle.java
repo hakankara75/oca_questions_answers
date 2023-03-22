@@ -1,6 +1,6 @@
 package super_this;
     class Vehicle{
-        int x;
+               int x;
         Vehicle(){
             this(10);
         }

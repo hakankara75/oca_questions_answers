@@ -11,6 +11,7 @@ public class S1 {
         dt.plusDays(30);
         dt.plusMonths(1);
         System.out.println(dt.format(DateTimeFormatter.ISO_DATE));
+
     }
 
     /*
@@ -21,7 +22,8 @@ C.2014-07-31
 D.2014-09-30
 
 Cevap: C
-Cozum: dt.plusDays(30);
+Cozum: Immutable (değiştirilemez) variable larda atama yapilmazsa deger degismez.
+        dt.plusDays(30);
         dt.plusMonths(1); ile  ay ve gun eklenmek istemis ama atama yapilmamis.
         Atama yapilmadigi icin dt ilk hali ile kalir.
      */
